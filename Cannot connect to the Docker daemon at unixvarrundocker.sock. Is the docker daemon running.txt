@@ -1,0 +1,12 @@
+
+https://www.cnblogs.com/awakenedy/p/10929720.html
+
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+
+
+systemctl enable docker
+
+systemctl daemon-reload
+
+systemctl restart docker.service
